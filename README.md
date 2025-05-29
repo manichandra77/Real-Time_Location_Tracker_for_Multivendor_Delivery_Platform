@@ -4,14 +4,14 @@ A comprehensive real-time delivery tracking system built with Next.js, Node.js, 
 
 ## Features
 
-### 🏪 Vendor Dashboard
+### Vendor Dashboard
 - **Order Management**: View all pending, assigned, and completed orders
 - **Delivery Partner Assignment**: Assign available delivery partners to orders
 - **Real-time Order Status**: Live updates on order progress and delivery status
 - **Multi-tenant Support**: Each vendor sees only their own orders
 - **Order Analytics**: Track delivery performance and completion rates
 
-### 🚴 Delivery Partner Dashboard
+### Delivery Partner Dashboard
 - **Order Queue**: View assigned orders with pickup and delivery details
 - **Live Location Tracking**: Real-time GPS tracking with automatic updates every 2-3 seconds
 - **Delivery Controls**: Start/pause/complete delivery with one-click actions
@@ -19,7 +19,7 @@ A comprehensive real-time delivery tracking system built with Next.js, Node.js, 
 - **Manual Location Override**: Fallback option when GPS is unavailable
 - **Delivery History**: View past completed deliveries
 
-### 📱 Customer Tracking Page
+### Customer Tracking Page
 - **Interactive Map**: Real-time delivery partner location on Google Maps/Leaflet
 - **Live ETA Updates**: Dynamic estimated time of arrival calculations
 - **Delivery Progress**: Step-by-step delivery status updates
@@ -27,7 +27,7 @@ A comprehensive real-time delivery tracking system built with Next.js, Node.js, 
 - **Auto-refresh**: Location updates every 2-3 seconds without page reload
 - **Mobile Responsive**: Optimized for mobile tracking experience
 
-### 🔧 Technical Features
+### Technical Features
 - **Real-time Communication**: WebSocket-based live updates using Socket.IO
 - **JWT Authentication**: Secure token-based authentication for all user types
 - **Geolocation API**: Browser-based GPS tracking with fallback support
@@ -293,7 +293,3 @@ For issues and questions:
 - Create an issue on GitHub
 - Check existing documentation in `/docs` folder
 - Review API examples in `/examples` directory
-
----
-
-**Built with ❤️ using Next.js, Node.js, and Socket.IO**
